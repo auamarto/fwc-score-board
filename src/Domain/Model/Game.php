@@ -16,7 +16,7 @@ class Game
         private readonly UuidInterface $id,
         private readonly string $homeTeam,
         private readonly string $awayTeam,
-        array   $events,
+        array $events,
     ) {
         usort(
             $events,
